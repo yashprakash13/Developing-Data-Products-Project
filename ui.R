@@ -18,7 +18,8 @@ shinyUI(
                       h4("Head over to the next tab to use the app!"),
                     
                       h5("The code for this app is available at:"),
-                      a("")
+                      a("https://github.com/yashprakash13/Developing-Data-Products-Project"),
+                      helpText("Made by Yash Prakash on September 6, 2018.")
              ),
              tabPanel("Run",
                       fluidPage(
