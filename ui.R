@@ -1,7 +1,7 @@
 library(shiny)
 
 shinyUI(
-  navbarPage("mtcars",
+  navbarPage("MTCARS APPLICATION",
              tabPanel("About the App",
                       helpText("This application lets you compare how certain variables like Number of Cyclinders or Type of Transmission, etc. affects the Miles Per Gallon(mpg) delivered by the car with the help of boxplots. "),
                       h3("The Data"),
